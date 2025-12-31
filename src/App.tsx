@@ -1,12 +1,8 @@
-import ScreenerPage from './pages/ScreenerPage'; // 确保路径指向你存放该文件的位置
-import 'antd/dist/reset.css'; // 导入 Ant Design 的样式，否则界面会乱
+import ScreenerPage from './pages/ScreenerPage';
+import 'antd/dist/reset.css';
 
 function App() {
-  return (
-    <div className="App">
-      <ScreenerPage />
-    </div>
-  )
+  return <ScreenerPage />;
 }
 
-export default App
+export default App;
